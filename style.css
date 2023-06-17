@@ -107,9 +107,18 @@ a{
         font-size: x-large;
     }
 }
-@media only screen and (max-width:1370px){
+@media only screen and (max-width:1400px){
     p{
         font-size: medium;
+    }
+}
+@media only screen and (max-width:1250px){
+    .contact{
+        width: 300px;
+    }
+    .git,.mail,.inst,.linked,.whats{
+        width: 45px;
+        height: 45px;
     }
 }
 @media only screen and (max-width:1028px){
