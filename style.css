@@ -111,6 +111,9 @@ a{
     p{
         font-size: medium;
     }
+    .sub_container1 p{
+        font-size: small;
+    }
 }
 @media only screen and (max-width:1250px){
     .contact{
