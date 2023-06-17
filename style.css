@@ -107,6 +107,11 @@ a{
         font-size: x-large;
     }
 }
+@media only screen and (min-width:1336px){
+    p{
+        font-size: large;
+    }
+}
 @media only screen and (max-width:1028px){
     .main_container{
         height: 160vh;
