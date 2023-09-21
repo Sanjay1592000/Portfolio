@@ -20,7 +20,6 @@ body{
     flex-direction: column;
     height: 85vh;
     width: 28vw;
-    padding: 0px 15px;
     border-radius: 10px;
     box-shadow: rgba(255, 145, 121, 0.8) 0px 30px 60px -20px;
     transition: 500ms ease-in-out;
@@ -77,7 +76,7 @@ a{
 .contact{
     display: flex;
     height: 50px;
-    width: 350px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -150,6 +149,10 @@ a{
     animation: blurslideup 1s ease-in-out;
 }
 
+.details{
+    width: 90%;
+}
+
 
 /*Responsiveness*/
 @media only screen and (min-width:1920px){
@@ -169,12 +172,18 @@ a{
     }
 }
 @media only screen and (max-width:1250px){
-    .contact{
-        width: 300px;
-    }
     .git,.mail,.inst,.linked,.whats{
         width: 45px;
         height: 45px;
+    }
+    h1{
+        font-size: x-large;
+    }
+    h2{
+        font-size: large;
+    }
+    .details p{
+        font-size: small;
     }
 }
 @media only screen and (max-width:1028px){
@@ -198,6 +207,9 @@ a{
     .sub_container,.sub_container1{
         width: 40vw;
     }
+    .details{
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width:768px){
@@ -209,7 +221,7 @@ a{
         height: 20vh;
     }
     .container1{
-        height: 60vh;
+        height: 70vh;
         width: 80vw;
         flex-direction: column;
     }
@@ -223,11 +235,27 @@ a{
         width:95%;
         height: 35vh;
     }
-    .contact{
-        width: 275px;
-    }
     .git,.mail,.inst,.linked,.whats{
         width: 40px;
         height: 40px;
+    }
+    p{
+        font-size: small;
+    }
+    .sub_container1 p{
+        font-size: smaller;
+    }
+    h1{
+        font-size: large;
+    }
+    h2{
+        font-size: medium;
+    }
+    .git,.mail,.inst,.linked,.whats{
+        width: 35px;
+        height: 35px;
+    }
+    .details{
+        width: 90%;
     }
 }
