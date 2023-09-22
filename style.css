@@ -178,6 +178,10 @@ a{
     }
 }
 @media only screen and (max-width:1028px){
+    .image{
+        width: 20%;
+        height: 70%;
+    }
     .main_container{
         height: 160vh;
         flex-direction: column;
@@ -185,10 +189,6 @@ a{
     .container1{
         justify-content: space-around;
         box-shadow: rgba(255, 145, 121, 0.8) 0px 20px 40px -20px;
-    }
-    .image{
-        width: 20vw;
-        height: 20vw;
     }
     .container1,.container2,.container3{
         flex-direction: row;
@@ -204,12 +204,12 @@ a{
 }
 
 @media only screen and (max-width:768px){
+    .image{
+        width: 50%;
+        height: 40%;
+    }
     .main_container{
         height: 250vh;
-    }
-    .image{
-        width: 20vh;
-        height: 20vh;
     }
     .container1{
         height: 70vh;
