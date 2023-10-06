@@ -2,7 +2,7 @@ body{
     background-image:repeating-linear-gradient( -45deg, rgb(255, 205, 192), rgb(255, 205, 192) 20px, rgb(253, 246, 244) 20px, rgb(253, 246, 244) 50px);
     color: rgb(255, 145, 121);
     margin: 0;
-    animation: changecolor 45s ease-out infinite;
+    animation: changecolor 30s ease-out infinite;
     background-size: 200% 200%;
     font-family: 'Nova Round', cursive;
 }
@@ -123,7 +123,7 @@ a{
         background-position: 0% 0%;
     }  
     50%{
-        background-position: 100% 0%;
+        background-position: 100% 100%;
     }
     100%{
         background-position: 0% 0%;
